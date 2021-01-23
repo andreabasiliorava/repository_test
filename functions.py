@@ -1,3 +1,4 @@
+
 def encode(input_string):
     count = 1
     prev = ""
@@ -16,7 +17,27 @@ def encode(input_string):
     entry = (character, count)
     lst.append(entry)
     return lst
+"""
 
+def encode(input_string):
+    count = 1
+    prev = ""
+    lst = []
+    if not input_string:
+        return []
+    for character in input_string:
+        if character != prev:
+            if prev:
+                entry = (prev, count)
+                lst.append(entry)
+            # count = 1  # Missing reset operation
+            prev = character
+        else:
+            count += 1
+    entry = (character, count)
+    lst.append(entry)
+    return lst
+"""
 
 def decode(lst):
     q = ""
