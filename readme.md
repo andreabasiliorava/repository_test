@@ -6,4 +6,4 @@ I'm Andrea Basilio Rava
 I'm 25 years old
 I'm testing git
 
-C(z) = \\sum\_{\\alpha =1}^{m}C\_{\\alpha}(z)
+https://latex.codecogs.com/svg.latex?C(z)%20=%20\sum_{\alpha%20=1}^{m}C_{\alpha}(z)
